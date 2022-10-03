@@ -372,7 +372,7 @@ while True:
     if start == 1:
         print ('Address Balance Info Check Tool')
         addr = str(input('Enter Your Bitcoin Address Here : '))
-        print ('\nBitcoin Address = ', addr, '    Balance So Chain = ', get_balance(addr), ' BTC')
+        print ('Bitcoin Address = ', addr, '    Balance So Chain = ', get_balance(addr), ' BTC')
         data_info()
         for data_w in data:
             hash160 = data_w['hash160']
